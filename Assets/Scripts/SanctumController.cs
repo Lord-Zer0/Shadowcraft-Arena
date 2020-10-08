@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class SanctumController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float currentHealth = 1000f;
+    public float maxHealth = 1000f;
+    bool isInvulnerable = true;
+    public float visionRange = 200f;
 
-    // Update is called once per frame
-    void Update()
+    // Use this for initialization
+    void Start() 
     {
-        
+        currentHealth = maxHealth;
     }
 }

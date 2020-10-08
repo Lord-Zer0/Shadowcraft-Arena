@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class TowerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float currentHealth = 150f;
+    public float maxHealth = 150f;
+    public int baseArmour = 8;
+    // Towers fire upon enemy targets within range.
+    public float fireDamage = 20f;
+    public float fireFrequency = 1;
+    public float fireRange = 100;
+    public float visionRange = 150;
 
-    // Update is called once per frame
-    void Update()
+    // Use this for initialization
+    void Start() 
     {
-        
+        currentHealth = maxHealth;
     }
 }
