@@ -647,6 +647,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5559206600743578883, guid: 7f6afa936a9af774fbf8382c128d719e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 6611861387867032451, guid: 7f6afa936a9af774fbf8382c128d719e,
         type: 3}
       propertyPath: m_LocalPosition.x
