@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6611861387867032451}
+  - component: {fileID: 5009863022613186070}
   m_Layer: 0
   m_Name: Blue_Sanctum
   m_TagString: Untagged
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5009863022613186070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5559206600743578883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be4f5bdd5103fd4c9a111803f3e175a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5805495410923116469
 GameObject:
   m_ObjectHideFlags: 0
